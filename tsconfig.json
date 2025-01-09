@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES6",
+    "lib": [
+      "DOM",
+      "ES5",
+      "ES6",
+      "ES7",
+      "ESNext"
+    ],
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "types": [
+      "node",
+      "reflect-metadata",
+    ],
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "importHelpers": false,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "allowSyntheticDefaultImports": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true, /* Enable experimental support for legacy experimental decorators. */
+    "emitDecoratorMetadata": true, /* Emit design-type metadata for decorated declarations in source files. */
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules/*"
+  ]
+}
